@@ -153,11 +153,7 @@ h1{
     
   }
   
-  .video{
-    margin: 20px;
-    text-align: center;
-  }
-    
+ 
   
   
   @media(max-width:768px){
@@ -224,12 +220,12 @@ h1{
         text-align: map-get($justify,evenly);
         padding: map-get($estilos, 1rem);
     }
-    
+
 
 @each $social , $color in $redes {
     .btn#{$social} {
+        @extend .sub;
         background-color: $color;
-        color: #302e2a;
         border-radius: 10%;
         border-style: solid;
         font-family: "Joan";
@@ -238,3 +234,14 @@ h1{
     }
 };
 
+
+@mixin escala($ancho,$alto,) {
+   width: $ancho;
+   height: $alto;
+};
+
+.video{
+    @include escala(100%,100%,);
+    text-align: center
+  }
+    
