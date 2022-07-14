@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/l-fAVICON.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Contacto</title>
+</head>
+<body class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../assets/img/book.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/sugerencias.html">Sugerencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/quienesSomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contactos.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/calendario.html">Calendario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/arteleer.html">El Arte de leer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <header>
+        <h1 data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Contacto</h1>
+    </header>
+<main>
+    <div class="row col-12">
+        <form class="form" action="contactos.php" method="post">
+            <fieldset>
+                <legend>Comparte tu opinion con Nosotros</legend>
+
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required>
+                <input type="email" name="mail" id="mail" placeholder="Ingrese su Mail" required>
+                <textarea name="comentario" id="comentario" cols="30" rows="10">Ingrese su comentario</textarea>
+            
+                <div>
+                <label for="miembro">Miembro</label>
+                <input type="radio" name="miembro" id="miembro" value="si">
+                <label for="no miembro">No Miembro</label>
+                <input type="radio" name="no miembro" id="no miembro" value="no">                 
+                </div>
+                <hr>
+                <p>Ultima Categoria Leida</p>
+                <select name="Ultima Categoria Leída" id="">
+                <option value="">Terror</option>
+                <option value="">Comedia</option>
+                <option value="R">Romance</option>
+                <option value="CF">Ciencia Ficcion</option>
+                <option value="IoJ">Infantil/Juvenil</option>
+                <option value="Otros">Otros</option>
+                </select>
+                <hr>
+            
+
+
+                <div>
+                <label for="Acepto">Acepto Terminos y Condiciones</label>
+                <input type="checkbox" name="Acepto" id="acepto" value="si" required>
+                </div>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+                
+            </fieldset>
+        </form>
+    </div>
+</main>
+   
+    <aside>
+        <div class="redes">
+            <h4>Siguenos en nuestras redes !</h4>
+            <a href="https://www.instagram.com">●Instagram●</a>
+            <a href="https://www.facebook.com">Facebook●</a>
+            <a href="https:/www.twitter.com">Twitter●</a>
+        </div>
+    </aside>
+
+    <footer id="pie"><h5>©2022 Mayinka, todos los derechos reservados.</h5></footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+.cajas{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:auto auto auto auto;
+    background-color:rgb(77, 22, 22);
+    margin: 5px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-color: rgb(29, 27, 27);
+    border-radius: 10px;
+    transition: all 1.5s;
+    .cajaUno{
+        margin: 10px;
+        padding: 10px;
+        background-image:linear-gradient(to left,#f2dbb5, rgb(120, 35, 35));
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1) rotatez(320deg);}  
+    }
+    .cajaDos{
+        margin: 10px;
+        padding: 10px;
+        background-color:rgb(248, 235, 186);
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1);}    
+    }
+    .cajaTres{
+        margin: 10px;
+        padding: 15px;
+        background-color:rgb(248, 235, 186);
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1);}
+    }
+    .cajaCuatro{
+        margin: 10px;
+        padding: 15px;
+        background-image: linear-gradient(to left,rgb(120, 35, 35),#FFE1B0);
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1) rotatez(45deg);}
+    }
+    .cajaCinco{
+        margin: 10px;
+        padding: 15px;
+        background-image:linear-gradient(to left,#FFE1B0, rgb(120, 35, 35));
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1)rotatez(320deg);}
+    }
+    .cajaSeis{
+        margin: 10px;
+        padding: 15px;
+        background-color:rgb(248, 235, 186);
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1);}
+    }
+    .cajaSiete{
+        margin: 10px;
+        padding: 15px;
+        background-color:rgb(248, 235, 186);
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1)rotatez(320deg);}
+    }
+    .cajaOcho{
+        margin: 10px;
+        padding: 15px;
+        background-image: linear-gradient(to left,rgb(120, 35, 35),#FFE1B0);
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1) rotatez(45deg);}
+    }
+    .cajaNueve{
+        margin: 10px;
+        padding: 15px;
+        background-image:linear-gradient(to left,#FFE1B0, rgb(120, 35, 35));
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1)rotatez(320deg);}
+    }
+    .cajaDiez{
+        margin: 10px;
+        padding: 15px;
+        background-color:rgb(248, 235, 186);
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1);}
+    }
+    .cajaOnce{
+        margin: 10px;
+        padding: 15px;
+        background-color:rgb(248, 235, 186);
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1);}
+    }
+    .cajaDoce{
+        margin: 10px;
+        padding: 15px;
+        background-image: linear-gradient(to left,rgb(120, 35, 35),#FFE1B0);
+        color: rgb(77, 22, 22);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(29, 27, 27);
+        &:hover{transform: translate(20px,10px) scale(1.1)rotatez(45deg);}
+    }
+    
+    
+}
+
+
+.redes {
+    margin: 10px;
+    padding: 10px;
+    border-color: rgb(29, 27, 27);
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Joan";
+    font-style: italic;
+    background: linear-gradient(to right, #FFE1B0 0%, #FFAF51 50%, #9D423E 100%);
+    margin-top: 2%;
+    color: rgb(82, 2, 10);
+    text-align: center;
+  }
+
+  .buscar{
+    margin: 10px;
+    padding: 10px;
+    border-color: rgb(29, 27, 27);
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Joan";
+    font-style: italic;
+    background: linear-gradient(to right, #FFE1B0 0%, #FFAF51 50%, #9D423E 100%);
+    margin-top: 2%;
+    color:rgb(82, 2, 10);
+}

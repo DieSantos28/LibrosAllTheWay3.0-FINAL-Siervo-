@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.redlog img {
+  width: 28px;
+}
+
+.ul {
+  list-style: flex;
+  display: flex;
+  margin: 19px;
+  padding: 8px;
+}
+
+h1 {
+  color: #c44a4a;
+  text-align: center;
+  font-size: 50px;
+  background-image: linear-gradient(to right, #FFE1B0, rgb(134, 52, 52));
+  margin: 5px;
+  padding: 5px;
+  font-family: "Joan";
+  border: 5px solid #FFE1B0;
+}
+
+.imgfondo {
+  background-image: url(../img/paisaje.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+.deb {
+  background-color: rgb(77, 22, 22);
+  width: 42%;
+  color: #FFE1B0;
+  border-radius: 10px;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 30px;
+  border-color: rgb(29, 27, 27);
+  border-style: solid;
+}
+.deb img {
+  width: 55%;
+}
+.deb h3 {
+  font-size: 31.71px;
+  color: #FFE1B0;
+  font-weight: 100;
+  margin: 10px;
+  text-align: center;
+}
+.deb li {
+  list-style: circle;
+  font-style: italic;
+  text-align: left;
+  margin: 30px;
+  font-size: 20px;
+}
+.deb p {
+  font-size: 20px;
+  margin: 2px;
+  text-align: left;
+  font-style: italic;
+}
+
+.cajas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto auto auto;
+  background-color: rgb(77, 22, 22);
+  margin: 5px;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-color: rgb(29, 27, 27);
+  border-radius: 10px;
+  transition: all 1.5s;
+}
+.cajas .cajaUno {
+  margin: 10px;
+  padding: 10px;
+  background-image: linear-gradient(to left, #f2dbb5, rgb(120, 35, 35));
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaUno:hover {
+  transform: translate(20px, 10px) scale(1.1) rotatez(320deg);
+}
+.cajas .cajaDos {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(248, 235, 186);
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaDos:hover {
+  transform: translate(20px, 10px) scale(1.1);
+}
+.cajas .cajaTres {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(248, 235, 186);
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaTres:hover {
+  transform: translate(20px, 10px) scale(1.1);
+}
+.cajas .cajaCuatro {
+  margin: 10px;
+  padding: 15px;
+  background-image: linear-gradient(to left, rgb(120, 35, 35), #FFE1B0);
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaCuatro:hover {
+  transform: translate(20px, 10px) scale(1.1) rotatez(45deg);
+}
+.cajas .cajaCinco {
+  margin: 10px;
+  padding: 15px;
+  background-image: linear-gradient(to left, #FFE1B0, rgb(120, 35, 35));
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaCinco:hover {
+  transform: translate(20px, 10px) scale(1.1) rotatez(320deg);
+}
+.cajas .cajaSeis {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(248, 235, 186);
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaSeis:hover {
+  transform: translate(20px, 10px) scale(1.1);
+}
+.cajas .cajaSiete {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(248, 235, 186);
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaSiete:hover {
+  transform: translate(20px, 10px) scale(1.1) rotatez(320deg);
+}
+.cajas .cajaOcho {
+  margin: 10px;
+  padding: 15px;
+  background-image: linear-gradient(to left, rgb(120, 35, 35), #FFE1B0);
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaOcho:hover {
+  transform: translate(20px, 10px) scale(1.1) rotatez(45deg);
+}
+.cajas .cajaNueve {
+  margin: 10px;
+  padding: 15px;
+  background-image: linear-gradient(to left, #FFE1B0, rgb(120, 35, 35));
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaNueve:hover {
+  transform: translate(20px, 10px) scale(1.1) rotatez(320deg);
+}
+.cajas .cajaDiez {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(248, 235, 186);
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaDiez:hover {
+  transform: translate(20px, 10px) scale(1.1);
+}
+.cajas .cajaOnce {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(248, 235, 186);
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaOnce:hover {
+  transform: translate(20px, 10px) scale(1.1);
+}
+.cajas .cajaDoce {
+  margin: 10px;
+  padding: 15px;
+  background-image: linear-gradient(to left, rgb(120, 35, 35), #FFE1B0);
+  color: rgb(77, 22, 22);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(29, 27, 27);
+}
+.cajas .cajaDoce:hover {
+  transform: translate(20px, 10px) scale(1.1) rotatez(45deg);
+}
+
+.redes {
+  margin: 10px;
+  padding: 10px;
+  border-color: rgb(29, 27, 27);
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Joan";
+  font-style: italic;
+  background: linear-gradient(to right, #FFE1B0 0%, #FFAF51 50%, #9D423E 100%);
+  margin-top: 2%;
+  color: rgb(82, 2, 10);
+  text-align: center;
+}
+
+.buscar {
+  margin: 10px;
+  padding: 10px;
+  border-color: rgb(29, 27, 27);
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Joan";
+  font-style: italic;
+  background: linear-gradient(to right, #FFE1B0 0%, #FFAF51 50%, #9D423E 100%);
+  margin-top: 2%;
+  color: rgb(82, 2, 10);
+}
+
+.form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form .legend {
+  margin: 10;
+  font-size: 30px;
+}
+.form input {
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgb(82, 2, 10);
+}
+.form textarea {
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid rgb(82, 2, 10);
+}
+
+#pie {
+  color: antiquewhite;
+  background-color: rgb(77, 22, 22);
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+  border-radius: 2px;
+}
+
+.saber {
+  background-image: linear-gradient(to left, #FFE1B0, rgb(134, 52, 52));
+  color: rgb(40, 2, 6);
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Joan";
+  font-style: italic;
+  margin: 10px;
+  padding: 10px;
+  border-style: solid;
+}
+
+.suge {
+  margin: 10px;
+  font-family: "Joan";
+  font-style: italic;
+  background-color: rgb(231, 250, 250);
+  font-size: 18px;
+}
+
+.disfrutar {
+  background: linear-gradient(to right, #FFE1B0 0%, #FFAF51 50%, #9D423E 100%);
+  border-bottom: 3px solid rgb(77, 22, 22);
+  border-top: 3px solid rgb(77, 22, 22);
+}
+
+.mirar {
+  background-image: linear-gradient(to left, #FFE1B0, rgb(134, 52, 52));
+  color: rgb(40, 2, 6);
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Joan";
+  font-style: italic;
+  margin: 10px;
+  padding: 10px;
+}
+
+.quien1 {
+  background-image: linear-gradient(to left, #FFE1B0, rgb(134, 52, 52));
+  color: rgb(40, 2, 6);
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Joan";
+  font-style: italic;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sub {
+  color: #FFE1B0;
+  text-align: center;
+  font-size: 30px;
+  background-color: #662831;
+  margin: 20px;
+  padding: 5px;
+  font-family: "Joan";
+  border: 5px solid #FFE1B0;
+}
+
+.video {
+  margin: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 98%;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .deb {
+    width: 98%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .cajas {
+    width: 98%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .busqueda {
+    width: 98%;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+@media (max-width: 568px) {
+  .navbar {
+    width: 97%;
+  }
+  .deb {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .cajas {
+    width: 97%;
+    padding: 10px;
+    margin: 10px;
+    grid-template-columns: auto;
+  }
+}
+.busqueda {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 10%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-7 {
+  width: 70%;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-9 {
+  width: 90%;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
