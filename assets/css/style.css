@@ -482,6 +482,9 @@ h1 {
   font-family: "Joan";
   font-style: italic;
 }
+.btninstagram:hover {
+  background-color: rgb(247, 218, 131);
+}
 
 .btnfacebook {
   background-color: rgb(21, 25, 215);
@@ -491,6 +494,9 @@ h1 {
   font-family: "Joan";
   font-style: italic;
 }
+.btnfacebook:hover {
+  background-color: rgb(247, 218, 131);
+}
 
 .btntwitter {
   background-color: rgb(11, 162, 182);
@@ -499,4 +505,7 @@ h1 {
   border-style: solid;
   font-family: "Joan";
   font-style: italic;
+}
+.btntwitter:hover {
+  background-color: rgb(247, 218, 131);
 }/*# sourceMappingURL=style.css.map */
