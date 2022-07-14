@@ -216,24 +216,16 @@ h1{
         flex-wrap: wrap;
     }
 
-    @for $var from 1 to 10 {
-        .col-#{$var}{
-            width: 10% * $var;
-        }
-    }
 
+    .filosofia{
+        background-color: map-get($estilos,color);
+        font-family: "Joan";
+        font-style: italic;
+        text-align: map-get($justify,evenly);
+        padding: map-get($estilos, 1rem);
+    }
     
-    @each $clave , $var in $justify {
-        .justify-content-#{$clave}{
-            justify-content: $var;
-        }
-    };
 
-    @each $clave , $var in $colores {
-        
-    }
-
-   
 @each $social , $color in $redes {
     .btn#{$social} {
         background-color: $color;

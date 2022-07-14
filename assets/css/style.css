@@ -414,64 +414,12 @@ h1 {
   flex-wrap: wrap;
 }
 
-.col-1 {
-  width: 10%;
-}
-
-.col-2 {
-  width: 20%;
-}
-
-.col-3 {
-  width: 30%;
-}
-
-.col-4 {
-  width: 40%;
-}
-
-.col-5 {
-  width: 50%;
-}
-
-.col-6 {
-  width: 60%;
-}
-
-.col-7 {
-  width: 70%;
-}
-
-.col-8 {
-  width: 80%;
-}
-
-.col-9 {
-  width: 90%;
-}
-
-.justify-content-start {
-  justify-content: start;
-}
-
-.justify-content-center {
-  justify-content: center;
-}
-
-.justify-content-end {
-  justify-content: end;
-}
-
-.justify-content-around {
-  justify-content: space-around;
-}
-
-.justify-content-evenly {
-  justify-content: space-evenly;
-}
-
-.justify-content-between {
-  justify-content: space-between;
+.filosofia {
+  background-color: rgb(255, 150, 4);
+  font-family: "Joan";
+  font-style: italic;
+  text-align: space-evenly;
+  padding: 1rem;
 }
 
 .btninstagram {
