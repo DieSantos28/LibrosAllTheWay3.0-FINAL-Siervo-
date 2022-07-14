@@ -5,21 +5,10 @@
     box-sizing: border-box;
 }
 @import "variables";
+
 .redlog img{
     width: 28px;
 }
-
-
-$justify:(
-    start:start,
-    center:center,
-    end:end,
-    around:space-around,
-    evenly:space-evenly,
-    between:space-between
-);
-
-
 
 
 .ul{
@@ -30,14 +19,14 @@ $justify:(
 }
 
 h1{
-    color: #c44a4a;
+    color: $Primario;
     text-align: center;
     font-size: 50px;
-    background-image:linear-gradient(to right,#FFE1B0, rgb(134, 52, 52));
+    background-image:linear-gradient(to right,rgb(247, 218, 131), rgb(134, 52, 52));
     margin: 5px;
     padding: 5px;
     font-family: "Joan";
-    border: 5px solid #FFE1B0;
+    border: 5px solid rgb(247, 218, 131);
     
 }
 
@@ -51,9 +40,9 @@ h1{
 }
 
 .deb {
-    background-color:rgb(77, 22, 22);
+    background-color:$Primario;
     width: 42%;
-    color: #FFE1B0;
+    color: rgb(247, 218, 131);
     border-radius: 10px;
     margin: 5px;
     margin-top: 20px;
@@ -66,7 +55,7 @@ h1{
     }
     h3{
         font-size: 31.71px;
-        color: #FFE1B0;
+        color: rgb(247, 218, 131);
         font-weight: 100;
         margin: 10px;
         text-align: center;
@@ -92,8 +81,8 @@ h1{
 
 
 #pie{
-    color: antiquewhite;
-    background-color:rgb(77, 22, 22);
+    color: #f8f1e9;
+    background-color:$Primario;
     text-align: center;
     justify-content: center;
     margin: 10px;
@@ -104,7 +93,7 @@ h1{
 
 
 .saber{
-    background-image:linear-gradient(to left,#FFE1B0, rgb(134, 52, 52));
+    background-image:linear-gradient(to left,rgb(247, 218, 131), rgb(134, 52, 52));
     color: rgb(40, 2, 6);
     font-size: 20px;
     font-weight: 800;
@@ -124,13 +113,13 @@ h1{
   }
   
   .disfrutar{
-    background: linear-gradient(to right, #FFE1B0 0%, #FFAF51 50%, #9D423E 100%);
+    background: linear-gradient(to right, rgb(247, 218, 131) 0%, #FFAF51 50%, #9D423E 100%);
     border-bottom: 3px solid rgb(77, 22, 22);
-    border-top: 3px solid rgb(77, 22, 22);
+    border-top: 3px solid $Primario;
   }
   
   .mirar{
-    background-image:linear-gradient(to left,#FFE1B0, rgb(134, 52, 52));
+    background-image:linear-gradient(to left,rgb(247, 218, 131), rgb(134, 52, 52));
     color: rgb(40, 2, 6);
     font-size: 20px;
     font-weight: 800;
@@ -141,7 +130,7 @@ h1{
   }
   
   .quien1{
-    background-image:linear-gradient(to left,#FFE1B0, rgb(134, 52, 52));
+    background-image:linear-gradient(to left,rgb(247, 218, 131), rgb(134, 52, 52));
     color: rgb(40, 2, 6);
     font-size: 20px;
     font-weight: 800;
@@ -153,7 +142,7 @@ h1{
   
   .sub{
     
-        color: #FFE1B0;
+        color: rgb(247, 218, 131);
         text-align: center;
         font-size: 30px;
         background-color: #662831;
@@ -238,4 +227,22 @@ h1{
         .justify-content-#{$clave}{
             justify-content: $var;
         }
+    };
+
+    @each $clave , $var in $colores {
+        
     }
+
+   
+@each $social , $color in $redes {
+    .btn#{$social} {
+        background-color: $color;
+        color: #302e2a;
+        border-radius: 10%;
+        border-style: solid;
+        font-family: "Joan";
+        font-style: italic;
+    
+    }
+};
+
