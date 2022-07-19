@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import "variables";
+@import "aside" ;
+@import "form" ;
 *{  margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-@import "variables";
-
 .redlog img{
     width: 28px;
 }
-
 
 .ul{
     list-style: flex;
@@ -75,11 +75,6 @@ h1{
     }
 }
 
-@import "aside" ;
-
-@import "form" ;
-
-
 #pie{
     color: #f8f1e9;
     background-color:$Primario;
@@ -90,7 +85,6 @@ h1{
     font-size: large;
     border-radius: 2px;
 }
-
 
 .saber{
     background-image:linear-gradient(to left,rgb(247, 218, 131), rgb(134, 52, 52));
@@ -158,7 +152,7 @@ h1{
   
   @media(max-width:768px){
     .navbar{
-        width: 98%;
+        width: 100%;
         padding: 10px;
         text-align: center;
         font-size: 30px;
@@ -170,9 +164,9 @@ h1{
         margin: 10px;
     }
     .cajas{
-        width: 98%;
-        padding: 10px;
-        margin: 10px;
+        width: 101.5%;
+        padding: 2px;
+        margin: 2px;
     }
     .busqueda{
         width: 98%;
@@ -245,3 +239,4 @@ h1{
     text-align: center
   }
     
+

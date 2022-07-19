@@ -1,77 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Joan&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.redlog img {
-  width: 28px;
-}
-
-.ul {
-  list-style: flex;
-  display: flex;
-  margin: 19px;
-  padding: 8px;
-}
-
-h1 {
-  color: rgb(77, 22, 22);
-  text-align: center;
-  font-size: 50px;
-  background-image: linear-gradient(to right, rgb(247, 218, 131), rgb(134, 52, 52));
-  margin: 5px;
-  padding: 5px;
-  font-family: "Joan";
-  border: 5px solid rgb(247, 218, 131);
-}
-
-.imgfondo {
-  background-image: url(../img/paisaje.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 600px;
-}
-
-.deb {
-  background-color: rgb(77, 22, 22);
-  width: 42%;
-  color: rgb(247, 218, 131);
-  border-radius: 10px;
-  margin: 5px;
-  margin-top: 20px;
-  padding: 30px;
-  border-color: rgb(29, 27, 27);
-  border-style: solid;
-}
-.deb img {
-  width: 55%;
-}
-.deb h3 {
-  font-size: 31.71px;
-  color: rgb(247, 218, 131);
-  font-weight: 100;
-  margin: 10px;
-  text-align: center;
-}
-.deb li {
-  list-style: circle;
-  font-style: italic;
-  text-align: left;
-  margin: 30px;
-  font-size: 20px;
-}
-.deb p {
-  font-size: 20px;
-  margin: 2px;
-  text-align: left;
-  font-style: italic;
-}
-
 .cajas {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -79,9 +7,9 @@ h1 {
   background-color: rgb(77, 22, 22);
   margin: 5px;
   margin-top: 30px;
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
-  text-align: center;
+  text-align: start;
   border-color: rgb(29, 27, 27);
   border-radius: 10px;
   transition: all 1.5s;
@@ -286,6 +214,78 @@ h1 {
   border: 2px solid rgb(82, 2, 10);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.redlog img {
+  width: 28px;
+}
+
+.ul {
+  list-style: flex;
+  display: flex;
+  margin: 19px;
+  padding: 8px;
+}
+
+h1 {
+  color: rgb(77, 22, 22);
+  text-align: center;
+  font-size: 50px;
+  background-image: linear-gradient(to right, rgb(247, 218, 131), rgb(134, 52, 52));
+  margin: 5px;
+  padding: 5px;
+  font-family: "Joan";
+  border: 5px solid rgb(247, 218, 131);
+}
+
+.imgfondo {
+  background-image: url(../img/paisaje.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+.deb {
+  background-color: rgb(77, 22, 22);
+  width: 42%;
+  color: rgb(247, 218, 131);
+  border-radius: 10px;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 30px;
+  border-color: rgb(29, 27, 27);
+  border-style: solid;
+}
+.deb img {
+  width: 55%;
+}
+.deb h3 {
+  font-size: 31.71px;
+  color: rgb(247, 218, 131);
+  font-weight: 100;
+  margin: 10px;
+  text-align: center;
+}
+.deb li {
+  list-style: circle;
+  font-style: italic;
+  text-align: left;
+  margin: 30px;
+  font-size: 20px;
+}
+.deb p {
+  font-size: 20px;
+  margin: 2px;
+  text-align: left;
+  font-style: italic;
+}
+
 #pie {
   color: #f8f1e9;
   background-color: rgb(77, 22, 22);
@@ -358,7 +358,7 @@ h1 {
 
 @media (max-width: 768px) {
   .navbar {
-    width: 98%;
+    width: 100%;
     padding: 10px;
     text-align: center;
     font-size: 30px;
@@ -369,9 +369,9 @@ h1 {
     margin: 10px;
   }
   .cajas {
-    width: 98%;
-    padding: 10px;
-    margin: 10px;
+    width: 101.5%;
+    padding: 2px;
+    margin: 2px;
   }
   .busqueda {
     width: 98%;
