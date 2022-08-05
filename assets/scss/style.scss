@@ -148,8 +148,6 @@ h1{
   }
   
  
-  
-  
   @media(max-width:768px){
     .navbar{
         width: 100%;
@@ -164,7 +162,8 @@ h1{
         margin: 10px;
     }
     .cajas{
-        width: 101.5%;
+        grid-template-columns:auto;
+        width: 51.5%;
         padding: 2px;
         margin: 2px;
     }
