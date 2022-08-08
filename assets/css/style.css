@@ -192,12 +192,18 @@
   .buscar {
     justify-content: center;
   }
+  .links {
+    width: 2px;
+    font-size: 2px;
+    margin: 1px;
+    padding: 1px;
+  }
 }
 .form {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 .form .legend {
   margin: 10;
@@ -212,7 +218,7 @@
   border-color: rgb(82, 2, 10);
 }
 .form textarea {
-  width: 400px;
+  width: 355px;
   height: 100px;
   margin: 10px;
   padding: 10px;
@@ -239,9 +245,9 @@
 h1 {
   color: rgb(77, 22, 22);
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   background-image: linear-gradient(to right, rgb(247, 218, 131), rgb(134, 52, 52));
-  margin: 5px;
+  margin: 7px;
   padding: 5px;
   font-family: "Joan";
   border: 5px solid rgb(247, 218, 131);
@@ -335,7 +341,9 @@ h1 {
   font-weight: 800;
   font-family: "Joan";
   font-style: italic;
-  margin: 10px;
+  margin: 5px;
+  margin-left: 0;
+  margin-right: 0px;
   padding: 10px;
 }
 
@@ -348,6 +356,13 @@ h1 {
   font-style: italic;
   margin: 10px;
   padding: 10px;
+}
+
+.semana {
+  text-align: center;
+  font-size: 20px;
+  padding: 1px;
+  margin: 10px;
 }
 
 .sub, .btntwitter, .btnfacebook, .btninstagram {
